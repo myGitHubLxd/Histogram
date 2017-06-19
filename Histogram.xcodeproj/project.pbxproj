@@ -170,7 +170,6 @@
 				TargetAttributes = {
 					FDF3023B1EF75F8F006B1304 = {
 						CreatedOnToolsVersion = 8.2.1;
-						DevelopmentTeam = 2JDXBDZP8Y;
 						ProvisioningStyle = Automatic;
 					};
 				};
@@ -383,7 +382,7 @@
 			baseConfigurationReference = 55290ADAAE1EEED9E3FC9CC4 /* Pods-Histogram.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				DEVELOPMENT_TEAM = 2JDXBDZP8Y;
+				DEVELOPMENT_TEAM = "";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "$(SRCROOT)/Histogram/PrefixHeader.pch";
 				INFOPLIST_FILE = Histogram/Info.plist;
@@ -398,7 +397,7 @@
 			baseConfigurationReference = E689681F639E1F6B28064C53 /* Pods-Histogram.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				DEVELOPMENT_TEAM = 2JDXBDZP8Y;
+				DEVELOPMENT_TEAM = "";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "$(SRCROOT)/Histogram/PrefixHeader.pch";
 				INFOPLIST_FILE = Histogram/Info.plist;
