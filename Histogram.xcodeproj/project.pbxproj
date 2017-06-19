@@ -15,7 +15,7 @@
 		FDF3024D1EF75F8F006B1304 /* Histogram.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = FDF3024B1EF75F8F006B1304 /* Histogram.xcdatamodeld */; };
 		FDF3024F1EF75F8F006B1304 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FDF3024E1EF75F8F006B1304 /* Assets.xcassets */; };
 		FDF302521EF75F8F006B1304 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FDF302501EF75F8F006B1304 /* LaunchScreen.storyboard */; };
-		FDF3025C1EF76337006B1304 /* CreditorProfitGraphView.m in Sources */ = {isa = PBXBuildFile; fileRef = FDF3025B1EF76337006B1304 /* CreditorProfitGraphView.m */; };
+		FDF3025C1EF76337006B1304 /* BarGraphView.m in Sources */ = {isa = PBXBuildFile; fileRef = FDF3025B1EF76337006B1304 /* BarGraphView.m */; };
 		FDF302981EF765CF006B1304 /* HisGraInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = FDF302971EF765CF006B1304 /* HisGraInfo.m */; };
 /* End PBXBuildFile section */
 
@@ -34,8 +34,8 @@
 		FDF3024E1EF75F8F006B1304 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		FDF302511EF75F8F006B1304 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		FDF302531EF75F90006B1304 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		FDF3025A1EF76337006B1304 /* CreditorProfitGraphView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CreditorProfitGraphView.h; sourceTree = "<group>"; };
-		FDF3025B1EF76337006B1304 /* CreditorProfitGraphView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CreditorProfitGraphView.m; sourceTree = "<group>"; };
+		FDF3025A1EF76337006B1304 /* BarGraphView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BarGraphView.h; sourceTree = "<group>"; };
+		FDF3025B1EF76337006B1304 /* BarGraphView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BarGraphView.m; sourceTree = "<group>"; };
 		FDF302961EF765CF006B1304 /* HisGraInfo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HisGraInfo.h; sourceTree = "<group>"; };
 		FDF302971EF765CF006B1304 /* HisGraInfo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HisGraInfo.m; sourceTree = "<group>"; };
 		FDF302991EF76A42006B1304 /* GlobalCommon.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GlobalCommon.h; sourceTree = "<group>"; };
@@ -121,8 +121,8 @@
 		FDF302591EF76337006B1304 /* graphView */ = {
 			isa = PBXGroup;
 			children = (
-				FDF3025A1EF76337006B1304 /* CreditorProfitGraphView.h */,
-				FDF3025B1EF76337006B1304 /* CreditorProfitGraphView.m */,
+				FDF3025A1EF76337006B1304 /* BarGraphView.h */,
+				FDF3025B1EF76337006B1304 /* BarGraphView.m */,
 			);
 			path = graphView;
 			sourceTree = "<group>";
@@ -170,6 +170,7 @@
 				TargetAttributes = {
 					FDF3023B1EF75F8F006B1304 = {
 						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = 2JDXBDZP8Y;
 						ProvisioningStyle = Automatic;
 					};
 				};
@@ -260,7 +261,7 @@
 			files = (
 				FDF302981EF765CF006B1304 /* HisGraInfo.m in Sources */,
 				FDF3024D1EF75F8F006B1304 /* Histogram.xcdatamodeld in Sources */,
-				FDF3025C1EF76337006B1304 /* CreditorProfitGraphView.m in Sources */,
+				FDF3025C1EF76337006B1304 /* BarGraphView.m in Sources */,
 				FDF302471EF75F8F006B1304 /* ViewController.m in Sources */,
 				FDF302441EF75F8F006B1304 /* AppDelegate.m in Sources */,
 				FDF302411EF75F8F006B1304 /* main.m in Sources */,
@@ -382,7 +383,7 @@
 			baseConfigurationReference = 55290ADAAE1EEED9E3FC9CC4 /* Pods-Histogram.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				DEVELOPMENT_TEAM = "";
+				DEVELOPMENT_TEAM = 2JDXBDZP8Y;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "$(SRCROOT)/Histogram/PrefixHeader.pch";
 				INFOPLIST_FILE = Histogram/Info.plist;
@@ -397,7 +398,7 @@
 			baseConfigurationReference = E689681F639E1F6B28064C53 /* Pods-Histogram.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				DEVELOPMENT_TEAM = "";
+				DEVELOPMENT_TEAM = 2JDXBDZP8Y;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "$(SRCROOT)/Histogram/PrefixHeader.pch";
 				INFOPLIST_FILE = Histogram/Info.plist;

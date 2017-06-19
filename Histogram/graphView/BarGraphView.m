@@ -1,18 +1,18 @@
 //
-//  ProfitGraphView.m
+//  BarGraphView.m
 //  DrawProfit
 //
 //  Created by lixiangdong on 16/5/9.
 //  Copyright © 2016年 myself. All rights reserved.
 //
 
-#import "CreditorProfitGraphView.h"
+#import "BarGraphView.h"
 #import "PNBar.h"
 
 #define HorizontalPointLineInstance 30.0f //横坐标距离最下方距离
 #define PointXInstance 45.0f              //坐标原点离屏幕左边距离
 
-@interface CreditorProfitGraphView () {
+@interface BarGraphView () {
     CGPoint _pointZero;     //原点坐标
     CGFloat _width;         //图区域宽
     CGFloat _height;        //图区域高
@@ -30,7 +30,7 @@
 @property (nonatomic, strong) HisGraInfo *graphInfo;
 @end
 
-@implementation CreditorProfitGraphView
+@implementation BarGraphView
 
 - (instancetype)initWithCoder:(NSCoder *)aDecoder{
     return [self initWithFrame:CGRectMake(10, 100, UI_IOS_WINDOW_WIDTH - 10 * 2, 200)];

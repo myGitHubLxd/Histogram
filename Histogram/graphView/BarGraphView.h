@@ -1,5 +1,5 @@
 //
-//  ProfitGraphView.h
+//  BarGraphView.h
 //  DrawProfit
 //
 //  Created by lixiangdong on 16/5/9.
@@ -9,7 +9,7 @@
 #import <UIKit/UIKit.h>
 #import "HisGraInfo.h"
 
-@interface CreditorProfitGraphView : UIView
+@interface BarGraphView : UIView
 
 
 - (instancetype)initWithFrame:(CGRect)frame NS_DESIGNATED_INITIALIZER;

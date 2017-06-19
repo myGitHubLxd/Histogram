@@ -7,7 +7,7 @@
 //
 
 #import "ViewController.h"
-#import "CreditorProfitGraphView.h"
+#import "BarGraphView.h"
 #import "HisGraInfo.h"
 
 @interface ViewController ()
@@ -20,7 +20,7 @@
     [super viewDidLoad];
     // Do any additional setup after loading the view, typically from a nib.
     
-    CreditorProfitGraphView *graphView = [[CreditorProfitGraphView alloc] initWithFrame:CGRectMake(10, 100, UI_IOS_WINDOW_WIDTH - 10*2, 200)];
+    BarGraphView *graphView = [[BarGraphView alloc] initWithFrame:CGRectMake(10, 100, UI_IOS_WINDOW_WIDTH - 10*2, 200)];
     [self.view addSubview:graphView];
     
     [graphView showGraphBar:[[HisGraInfo alloc] initDefault]];
