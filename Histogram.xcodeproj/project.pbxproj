@@ -1,0 +1,331 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		FDF302411EF75F8F006B1304 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = FDF302401EF75F8F006B1304 /* main.m */; };
+		FDF302441EF75F8F006B1304 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = FDF302431EF75F8F006B1304 /* AppDelegate.m */; };
+		FDF302471EF75F8F006B1304 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FDF302461EF75F8F006B1304 /* ViewController.m */; };
+		FDF3024A1EF75F8F006B1304 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FDF302481EF75F8F006B1304 /* Main.storyboard */; };
+		FDF3024D1EF75F8F006B1304 /* Histogram.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = FDF3024B1EF75F8F006B1304 /* Histogram.xcdatamodeld */; };
+		FDF3024F1EF75F8F006B1304 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FDF3024E1EF75F8F006B1304 /* Assets.xcassets */; };
+		FDF302521EF75F8F006B1304 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FDF302501EF75F8F006B1304 /* LaunchScreen.storyboard */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		FDF3023C1EF75F8F006B1304 /* Histogram.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Histogram.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		FDF302401EF75F8F006B1304 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		FDF302421EF75F8F006B1304 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		FDF302431EF75F8F006B1304 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		FDF302451EF75F8F006B1304 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		FDF302461EF75F8F006B1304 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		FDF302491EF75F8F006B1304 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		FDF3024C1EF75F8F006B1304 /* Histogram.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Histogram.xcdatamodel; sourceTree = "<group>"; };
+		FDF3024E1EF75F8F006B1304 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		FDF302511EF75F8F006B1304 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		FDF302531EF75F90006B1304 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FDF302391EF75F8F006B1304 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		FDF302331EF75F8F006B1304 = {
+			isa = PBXGroup;
+			children = (
+				FDF3023E1EF75F8F006B1304 /* Histogram */,
+				FDF3023D1EF75F8F006B1304 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		FDF3023D1EF75F8F006B1304 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FDF3023C1EF75F8F006B1304 /* Histogram.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FDF3023E1EF75F8F006B1304 /* Histogram */ = {
+			isa = PBXGroup;
+			children = (
+				FDF302421EF75F8F006B1304 /* AppDelegate.h */,
+				FDF302431EF75F8F006B1304 /* AppDelegate.m */,
+				FDF302451EF75F8F006B1304 /* ViewController.h */,
+				FDF302461EF75F8F006B1304 /* ViewController.m */,
+				FDF302481EF75F8F006B1304 /* Main.storyboard */,
+				FDF3024E1EF75F8F006B1304 /* Assets.xcassets */,
+				FDF302501EF75F8F006B1304 /* LaunchScreen.storyboard */,
+				FDF302531EF75F90006B1304 /* Info.plist */,
+				FDF3024B1EF75F8F006B1304 /* Histogram.xcdatamodeld */,
+				FDF3023F1EF75F8F006B1304 /* Supporting Files */,
+			);
+			path = Histogram;
+			sourceTree = "<group>";
+		};
+		FDF3023F1EF75F8F006B1304 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				FDF302401EF75F8F006B1304 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FDF3023B1EF75F8F006B1304 /* Histogram */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FDF302561EF75F90006B1304 /* Build configuration list for PBXNativeTarget "Histogram" */;
+			buildPhases = (
+				FDF302381EF75F8F006B1304 /* Sources */,
+				FDF302391EF75F8F006B1304 /* Frameworks */,
+				FDF3023A1EF75F8F006B1304 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Histogram;
+			productName = Histogram;
+			productReference = FDF3023C1EF75F8F006B1304 /* Histogram.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FDF302341EF75F8F006B1304 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = myself;
+				TargetAttributes = {
+					FDF3023B1EF75F8F006B1304 = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = FDF302371EF75F8F006B1304 /* Build configuration list for PBXProject "Histogram" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = FDF302331EF75F8F006B1304;
+			productRefGroup = FDF3023D1EF75F8F006B1304 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FDF3023B1EF75F8F006B1304 /* Histogram */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FDF3023A1EF75F8F006B1304 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FDF302521EF75F8F006B1304 /* LaunchScreen.storyboard in Resources */,
+				FDF3024F1EF75F8F006B1304 /* Assets.xcassets in Resources */,
+				FDF3024A1EF75F8F006B1304 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FDF302381EF75F8F006B1304 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FDF3024D1EF75F8F006B1304 /* Histogram.xcdatamodeld in Sources */,
+				FDF302471EF75F8F006B1304 /* ViewController.m in Sources */,
+				FDF302441EF75F8F006B1304 /* AppDelegate.m in Sources */,
+				FDF302411EF75F8F006B1304 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		FDF302481EF75F8F006B1304 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FDF302491EF75F8F006B1304 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		FDF302501EF75F8F006B1304 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FDF302511EF75F8F006B1304 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		FDF302541EF75F90006B1304 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		FDF302551EF75F90006B1304 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		FDF302571EF75F90006B1304 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Histogram/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = none.Histogram;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		FDF302581EF75F90006B1304 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Histogram/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = none.Histogram;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FDF302371EF75F8F006B1304 /* Build configuration list for PBXProject "Histogram" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FDF302541EF75F90006B1304 /* Debug */,
+				FDF302551EF75F90006B1304 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FDF302561EF75F90006B1304 /* Build configuration list for PBXNativeTarget "Histogram" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FDF302571EF75F90006B1304 /* Debug */,
+				FDF302581EF75F90006B1304 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		FDF3024B1EF75F8F006B1304 /* Histogram.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				FDF3024C1EF75F8F006B1304 /* Histogram.xcdatamodel */,
+			);
+			currentVersion = FDF3024C1EF75F8F006B1304 /* Histogram.xcdatamodel */;
+			path = Histogram.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = FDF302341EF75F8F006B1304 /* Project object */;
+}
