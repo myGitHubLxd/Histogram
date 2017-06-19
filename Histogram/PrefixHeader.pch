@@ -1,0 +1,14 @@
+//
+//  PrefixHeader.pch
+//  Histogram
+//
+//  Created by lixiangdong on 2017/6/19.
+//  Copyright © 2017年 myself. All rights reserved.
+//
+
+#ifndef PrefixHeader_pch
+#define PrefixHeader_pch
+
+#import "GlobalCommon.h"
+
+#endif /* PrefixHeader_pch */

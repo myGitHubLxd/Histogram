@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		7E69EAE1542B61BC76843149 /* libPods-Histogram.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 5834BD880F638E7C68DE44D3 /* libPods-Histogram.a */; };
 		FDF302411EF75F8F006B1304 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = FDF302401EF75F8F006B1304 /* main.m */; };
 		FDF302441EF75F8F006B1304 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = FDF302431EF75F8F006B1304 /* AppDelegate.m */; };
 		FDF302471EF75F8F006B1304 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FDF302461EF75F8F006B1304 /* ViewController.m */; };
@@ -14,9 +15,14 @@
 		FDF3024D1EF75F8F006B1304 /* Histogram.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = FDF3024B1EF75F8F006B1304 /* Histogram.xcdatamodeld */; };
 		FDF3024F1EF75F8F006B1304 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FDF3024E1EF75F8F006B1304 /* Assets.xcassets */; };
 		FDF302521EF75F8F006B1304 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FDF302501EF75F8F006B1304 /* LaunchScreen.storyboard */; };
+		FDF3025C1EF76337006B1304 /* CreditorProfitGraphView.m in Sources */ = {isa = PBXBuildFile; fileRef = FDF3025B1EF76337006B1304 /* CreditorProfitGraphView.m */; };
+		FDF302981EF765CF006B1304 /* HisGraInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = FDF302971EF765CF006B1304 /* HisGraInfo.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		55290ADAAE1EEED9E3FC9CC4 /* Pods-Histogram.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Histogram.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Histogram/Pods-Histogram.debug.xcconfig"; sourceTree = "<group>"; };
+		5834BD880F638E7C68DE44D3 /* libPods-Histogram.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Histogram.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		E689681F639E1F6B28064C53 /* Pods-Histogram.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Histogram.release.xcconfig"; path = "Pods/Target Support Files/Pods-Histogram/Pods-Histogram.release.xcconfig"; sourceTree = "<group>"; };
 		FDF3023C1EF75F8F006B1304 /* Histogram.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Histogram.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		FDF302401EF75F8F006B1304 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		FDF302421EF75F8F006B1304 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -28,6 +34,12 @@
 		FDF3024E1EF75F8F006B1304 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		FDF302511EF75F8F006B1304 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		FDF302531EF75F90006B1304 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FDF3025A1EF76337006B1304 /* CreditorProfitGraphView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CreditorProfitGraphView.h; sourceTree = "<group>"; };
+		FDF3025B1EF76337006B1304 /* CreditorProfitGraphView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CreditorProfitGraphView.m; sourceTree = "<group>"; };
+		FDF302961EF765CF006B1304 /* HisGraInfo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HisGraInfo.h; sourceTree = "<group>"; };
+		FDF302971EF765CF006B1304 /* HisGraInfo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HisGraInfo.m; sourceTree = "<group>"; };
+		FDF302991EF76A42006B1304 /* GlobalCommon.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GlobalCommon.h; sourceTree = "<group>"; };
+		FDF3029A1EF76B9F006B1304 /* PrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -35,17 +47,37 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7E69EAE1542B61BC76843149 /* libPods-Histogram.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		13F1CDF6616821677E3DD255 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				55290ADAAE1EEED9E3FC9CC4 /* Pods-Histogram.debug.xcconfig */,
+				E689681F639E1F6B28064C53 /* Pods-Histogram.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		F9A9CBB9DD4F0EC9EBBE6A42 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				5834BD880F638E7C68DE44D3 /* libPods-Histogram.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		FDF302331EF75F8F006B1304 = {
 			isa = PBXGroup;
 			children = (
 				FDF3023E1EF75F8F006B1304 /* Histogram */,
 				FDF3023D1EF75F8F006B1304 /* Products */,
+				13F1CDF6616821677E3DD255 /* Pods */,
+				F9A9CBB9DD4F0EC9EBBE6A42 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -60,6 +92,9 @@
 		FDF3023E1EF75F8F006B1304 /* Histogram */ = {
 			isa = PBXGroup;
 			children = (
+				FDF302951EF76592006B1304 /* Models */,
+				FDF302591EF76337006B1304 /* graphView */,
+				FDF302991EF76A42006B1304 /* GlobalCommon.h */,
 				FDF302421EF75F8F006B1304 /* AppDelegate.h */,
 				FDF302431EF75F8F006B1304 /* AppDelegate.m */,
 				FDF302451EF75F8F006B1304 /* ViewController.h */,
@@ -70,6 +105,7 @@
 				FDF302531EF75F90006B1304 /* Info.plist */,
 				FDF3024B1EF75F8F006B1304 /* Histogram.xcdatamodeld */,
 				FDF3023F1EF75F8F006B1304 /* Supporting Files */,
+				FDF3029A1EF76B9F006B1304 /* PrefixHeader.pch */,
 			);
 			path = Histogram;
 			sourceTree = "<group>";
@@ -82,6 +118,24 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
+		FDF302591EF76337006B1304 /* graphView */ = {
+			isa = PBXGroup;
+			children = (
+				FDF3025A1EF76337006B1304 /* CreditorProfitGraphView.h */,
+				FDF3025B1EF76337006B1304 /* CreditorProfitGraphView.m */,
+			);
+			path = graphView;
+			sourceTree = "<group>";
+		};
+		FDF302951EF76592006B1304 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				FDF302961EF765CF006B1304 /* HisGraInfo.h */,
+				FDF302971EF765CF006B1304 /* HisGraInfo.m */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -89,9 +143,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = FDF302561EF75F90006B1304 /* Build configuration list for PBXNativeTarget "Histogram" */;
 			buildPhases = (
+				D47D2E710CFD55A43C7B5779 /* [CP] Check Pods Manifest.lock */,
 				FDF302381EF75F8F006B1304 /* Sources */,
 				FDF302391EF75F8F006B1304 /* Frameworks */,
 				FDF3023A1EF75F8F006B1304 /* Resources */,
+				BFAE7387202B96C259CA4361 /* [CP] Embed Pods Frameworks */,
+				D6FE12C68A61C3F6062833C7 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -148,12 +205,62 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		BFAE7387202B96C259CA4361 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Histogram/Pods-Histogram-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D47D2E710CFD55A43C7B5779 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		D6FE12C68A61C3F6062833C7 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Histogram/Pods-Histogram-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		FDF302381EF75F8F006B1304 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FDF302981EF765CF006B1304 /* HisGraInfo.m in Sources */,
 				FDF3024D1EF75F8F006B1304 /* Histogram.xcdatamodeld in Sources */,
+				FDF3025C1EF76337006B1304 /* CreditorProfitGraphView.m in Sources */,
 				FDF302471EF75F8F006B1304 /* ViewController.m in Sources */,
 				FDF302441EF75F8F006B1304 /* AppDelegate.m in Sources */,
 				FDF302411EF75F8F006B1304 /* main.m in Sources */,
@@ -272,8 +379,12 @@
 		};
 		FDF302571EF75F90006B1304 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 55290ADAAE1EEED9E3FC9CC4 /* Pods-Histogram.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = "";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/Histogram/PrefixHeader.pch";
 				INFOPLIST_FILE = Histogram/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = none.Histogram;
@@ -283,8 +394,12 @@
 		};
 		FDF302581EF75F90006B1304 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = E689681F639E1F6B28064C53 /* Pods-Histogram.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = "";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/Histogram/PrefixHeader.pch";
 				INFOPLIST_FILE = Histogram/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = none.Histogram;
@@ -311,6 +426,7 @@
 				FDF302581EF75F90006B1304 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
